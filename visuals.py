@@ -60,7 +60,7 @@ def evaluate(results, accuracy, f1):
     """
   
     # Create figure
-    fig, ax = pl.subplots(2, 3, figsize = (11,7))
+    fig, ax = pl.subplots(2, 3, figsize = (14,8))
 
     # Constants
     bar_width = 0.3
@@ -75,8 +75,9 @@ def evaluate(results, accuracy, f1):
                 ax[j//3, j%3].bar(i+k*bar_width, results[learner][i][metric], width = bar_width, color = colors[k])
                 ax[j//3, j%3].set_xticks([0.45, 1.45, 2.45])
                 ax[j//3, j%3].set_xticklabels(["1%", "10%", "100%"])
-                ax[j//3, j%3].set_xlabel("Training Set Size")
                 ax[j//3, j%3].set_xlim((-0.1, 3.0))
+                ax[0, i].set_xlabel("")
+                ax[1, i].set_xlabel("Training Set Size")
     
     # Add unique y-labels
     ax[0, 0].set_ylabel("Time (in seconds)")
@@ -116,8 +117,7 @@ def evaluate(results, accuracy, f1):
     # Aesthetics
     pl.suptitle("Performance Metrics for Three Supervised Learning Models", fontsize = 16, y = 1.10)
     pl.tight_layout()
-    pl.show()
-    
+    pl.show()    
 
 def feature_plot(importances, X_train, y_train):
     
