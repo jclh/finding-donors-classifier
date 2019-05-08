@@ -1,11 +1,11 @@
 # Finding Donors for *CharityML*
 ## Exercise in Supervised Learning with `scikit-learn`
 ### [Udacity Program: Data Science, Project 1](https://github.com/udacity/DSND_Term1)
-
-<img src="screen-example.png" width="480" alt="Example" />
-
+---
 
 ## Overview
+
+<img src="screen-example.png" width="768" alt="Example" />
 
 In this project I use several classification algorithms included in the **scikit-learn** package to model person-level income — using data collected from the 1994 U.S. Census — and predict whether an individual makes more than \$50,000 per year. 
 
