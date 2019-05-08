@@ -3,7 +3,6 @@
 ### [Udacity Program: Data Science, Project 1](https://github.com/udacity/DSND_Term1)
 ---
 
-## Overview
 
 <img src="screen-example.png" width="768" alt="Example" />
 
