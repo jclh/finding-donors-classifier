@@ -1,5 +1,5 @@
 # Finding Donors for *CharityML*
-## Exercise in Supervised Learning with `scikit-learn`
+## Exercise evaluating classifiers in `scikit-learn`
 ### [Udacity Program: Data Science, Project 1](https://github.com/udacity/DSND_Term1)
 ---
 
