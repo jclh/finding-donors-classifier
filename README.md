@@ -1,8 +1,10 @@
 # Finding Donors for *CharityML*
 ## Exercise evaluating classifiers in `scikit-learn`
+<br />
 
+> Example screen:
 
-<img src="screen-example.png" width="768" alt="Example" />
+<img src="screen-example.png" width="512" alt="Example" />
 
 This project is part of a [Udacity](https://www.udacity.com/) program: [Data Science degree, Project 1](https://github.com/udacity/DSND_Term1).
 
