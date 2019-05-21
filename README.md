@@ -4,7 +4,9 @@
 
 > Example screen:
 
-<img src="screen-example.png" width="512" alt="Example" />
+<p align="center">
+  <img src="screen-example.png" width="600" alt="Example" />
+</p>
 
 This project is part of a [Udacity](https://www.udacity.com/) program: [Data Science degree, Project 1](https://github.com/udacity/DSND_Term1).
 
