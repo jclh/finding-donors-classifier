@@ -70,7 +70,7 @@ The Jupyter Notebook file, `find_donors-sklearn.ipynb`, requires the following P
 
 ## 1994 Census data
 
-> - `census.csv`: 1994 U.S. Census data; 14 features for 45,222 individuals.
+- `census.csv`: 1994 U.S. Census data; 14 features for 45,222 individuals.
 
 ### Outcome
 
